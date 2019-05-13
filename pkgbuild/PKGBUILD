@@ -1,0 +1,16 @@
+# $Id$
+# Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
+
+pkgname=blackbird-settings-applications
+pkgver=1.0
+pkgrel=1
+pkgdesc="3rd-party application settings for Blackbird OS"
+arch=('any')
+url='https://github.com/blackbird-os/blackbird-settings-applications'
+license=('GPL')
+
+package() {
+  cd ../..
+  cp -aR etc $pkgdir/
+  cp -aR usr $pkgdir/
+}
