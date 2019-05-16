@@ -1,0 +1,17 @@
+[ScreenConnectors]
+10=eDP1
+
+[UniversalSettings]
+canDisableBorders=false
+currentLayout=black-dock-v1.1
+downloadWindowSize=800,550
+lastNonAssignedLayout=black-dock-v1.1
+launchers=
+layoutsColumnWidths=
+layoutsWindowSize=700,450
+memoryUsage=0
+mouseSensitivity=2
+screenTrackerInterval=2500
+showInfoWindow=true
+unifiedGlobalShortcuts=true
+version=2
