@@ -3,7 +3,7 @@
 
 pkgname=blackbird-settings-applications
 pkgver=$(date +%Y.%m)
-pkgrel=2
+pkgrel=3
 pkgdesc="3rd-party application settings for Blackbird OS"
 arch=('any')
 url='https://github.com/blackbird-os/blackbird-settings-applications'
