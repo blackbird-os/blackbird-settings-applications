@@ -42,10 +42,13 @@ PreloadWeight=0
 
 [Containments][1][Applets][29]
 immutability=1
-plugin=org.kde.plasma.calculator
+plugin=org.kde.plasma.icon
 
 [Containments][1][Applets][29][Configuration]
-PreloadWeight=75
+PreloadWeight=18
+
+[Containments][1][Applets][29][Configuration][General]
+url=file:///usr/share/applications/org.kde.spectacle.desktop
 
 [Containments][1][Applets][35][Configuration][General]
 show_lockScreen=false
@@ -55,14 +58,14 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][1][Applets][36][Configuration]
-PreloadWeight=16
+PreloadWeight=0
 
 [Containments][1][Applets][39]
 immutability=1
 plugin=org.kde.plasma.volumewin7mixer
 
 [Containments][1][Applets][39][Configuration]
-PreloadWeight=66
+PreloadWeight=12
 
 [Containments][1][Applets][39][Configuration][Applet]
 showMediaController=false
@@ -74,24 +77,24 @@ DialogWidth=720
 
 [Containments][1][Applets][46]
 immutability=1
-plugin=org.kde.plasma.quicklaunch
+plugin=org.kde.plasma.icon
 
 [Containments][1][Applets][46][Configuration]
-PreloadWeight=2
+PreloadWeight=42
 
 [Containments][1][Applets][46][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][1][Applets][46][Configuration][General]
-launcherUrls=file:///usr/share/default-settings/plasma5-profile/applications/org.kde.yakuake.desktop
+url=file:///usr/share/applications/org.kde.yakuake.desktop
 
 [Containments][1][Applets][5]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][5][Configuration]
-PreloadWeight=81
+PreloadWeight=27
 SystrayContainmentId=6
 
 [Containments][1][Applets][50]
@@ -99,7 +102,7 @@ immutability=1
 plugin=org.kde.plasma.simplemenu
 
 [Containments][1][Applets][50][Configuration]
-PreloadWeight=100
+PreloadWeight=36
 
 [Containments][1][Applets][50][Configuration][ConfigDialog]
 DialogHeight=540
@@ -107,14 +110,8 @@ DialogWidth=720
 
 [Containments][1][Applets][50][Configuration][General]
 customButtonImage=/usr/share/icons/hicolor/scalable/apps/homerun.svg
-favorites=org.kde.discover.desktop,octopi.desktop,org.kde.ksysguard.desktop,org.kde.kate.desktop,systemsettings.desktop
+favoriteApps=org.kde.discover.desktop,octopi.desktop,org.kde.ksysguard.desktop,org.kde.kate.desktop,systemsettings.desktop
 useCustomButtonImage=true
-
-[Containments][1][Applets][52][Configuration][General]
-launcherUrls=file:///usr/share/applications/systemsettings.desktop,file:///usr/share/applications/audacious.desktop
-
-[Containments][1][Applets][53][Configuration][General]
-launcherUrls=file:///usr/share/applications/octopi.desktop
 
 [Containments][1][ConfigDialog]
 DialogHeight=698
@@ -133,6 +130,7 @@ glow3D=true
 glowOpacity=80
 glowOption=OnActive
 iconSize=46
+lockedZoomApplets=46
 middleClickAction=None
 panelPosition=10
 panelSize=100
@@ -160,21 +158,21 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][6][Applets][10][Configuration]
-PreloadWeight=36
+PreloadWeight=0
 
 [Containments][6][Applets][11]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][6][Applets][11][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][6][Applets][12]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][6][Applets][12][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][6][Applets][13]
 immutability=1
@@ -195,7 +193,7 @@ immutability=1
 plugin=org.kde.discovernotifier
 
 [Containments][6][Applets][15][Configuration]
-PreloadWeight=11
+PreloadWeight=0
 
 [Containments][6][Applets][17]
 immutability=1
@@ -216,7 +214,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][6][Applets][51][Configuration]
-PreloadWeight=47
+PreloadWeight=0
 
 [Containments][6][Applets][55]
 immutability=1
