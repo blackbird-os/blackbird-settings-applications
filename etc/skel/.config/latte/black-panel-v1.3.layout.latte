@@ -40,19 +40,6 @@ plugin=org.kde.plasma.digitalclock
 [Containments][1][Applets][28][Configuration]
 PreloadWeight=0
 
-[Containments][1][Applets][29]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][1][Applets][29][Configuration]
-PreloadWeight=18
-
-[Containments][1][Applets][29][Configuration][General]
-url=file:///usr/share/applications/org.kde.spectacle.desktop
-
-[Containments][1][Applets][35][Configuration][General]
-show_lockScreen=false
-
 [Containments][1][Applets][36]
 immutability=1
 plugin=org.kde.plasma.notifications
@@ -65,7 +52,7 @@ immutability=1
 plugin=org.kde.plasma.volumewin7mixer
 
 [Containments][1][Applets][39][Configuration]
-PreloadWeight=12
+PreloadWeight=0
 
 [Containments][1][Applets][39][Configuration][Applet]
 showMediaController=false
@@ -79,9 +66,6 @@ DialogWidth=720
 immutability=1
 plugin=org.kde.plasma.icon
 
-[Containments][1][Applets][46][Configuration]
-PreloadWeight=42
-
 [Containments][1][Applets][46][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -94,7 +78,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][5][Configuration]
-PreloadWeight=27
+PreloadWeight=0
 SystrayContainmentId=6
 
 [Containments][1][Applets][50]
@@ -102,7 +86,7 @@ immutability=1
 plugin=org.kde.plasma.simplemenu
 
 [Containments][1][Applets][50][Configuration]
-PreloadWeight=36
+PreloadWeight=4
 
 [Containments][1][Applets][50][Configuration][ConfigDialog]
 DialogHeight=540
@@ -111,11 +95,19 @@ DialogWidth=720
 [Containments][1][Applets][50][Configuration][General]
 customButtonImage=/usr/share/icons/hicolor/scalable/apps/homerun.svg
 favoriteApps=org.kde.discover.desktop,octopi.desktop,org.kde.ksysguard.desktop,org.kde.kate.desktop,systemsettings.desktop
+favoritesPortedToKAstats=true
 useCustomButtonImage=true
 
+[Containments][1][Applets][52]
+immutability=1
+plugin=org.kde.plasma.calculator
+
+[Containments][1][Applets][52][Configuration]
+PreloadWeight=23
+
 [Containments][1][ConfigDialog]
-DialogHeight=698
-DialogWidth=601
+DialogHeight=667
+DialogWidth=574
 
 [Containments][1][Configuration]
 PreloadWeight=0
@@ -123,7 +115,7 @@ PreloadWeight=0
 [Containments][1][General]
 activeIndicator=None
 advanced=true
-appletOrder=50;2;46;29;39;5;28;36
+appletOrder=50;2;46;52;39;5;28;36
 autoDecreaseIconSize=false
 durationTime=None
 glow3D=true
@@ -202,26 +194,12 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][6][Applets][17][Configuration]
 PreloadWeight=0
 
-[Containments][6][Applets][18]
-immutability=1
-plugin=org.kde.plasma.bluetooth
-
-[Containments][6][Applets][18][Configuration]
-PreloadWeight=0
-
 [Containments][6][Applets][51]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][6][Applets][51][Configuration]
 PreloadWeight=0
-
-[Containments][6][Applets][55]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
-
-[Containments][6][Applets][55][Configuration]
-PreloadWeight=42
 
 [Containments][6][Applets][9]
 immutability=1
@@ -237,6 +215,7 @@ DialogWidth=720
 [Containments][6][General]
 extraItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.discovernotifier,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller
 hiddenItems=org.kde.plasma.notifications
+iconSize=2
 knownItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.discovernotifier,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.volumewin7mixer,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller
 
 [LayoutSettings]
@@ -244,7 +223,7 @@ activities=
 background=
 color=blue
 disableBordersForMaximizedWindows=false
-lastUsedActivity=8b27c5a9-0d1a-4a20-a062-41c9a9aff3bc
+lastUsedActivity=241c1101-fd54-45a8-a450-8fb1c705e933
 launchers=
 showInMenu=true
 textColor=fcfcfc
