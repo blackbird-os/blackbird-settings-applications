@@ -2,6 +2,7 @@
 10=eDP1
 
 [UniversalSettings]
+badges3DStyle=false
 canDisableBorders=false
 currentLayout=black-panel-v1.3
 downloadWindowSize=800,550
@@ -10,6 +11,7 @@ launchers=
 layoutsColumnWidths=88,106,65,0
 layoutsWindowSize=700,450
 memoryUsage=0
+metaPressAndHoldEnabled=true
 mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true
